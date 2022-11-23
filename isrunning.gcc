@@ -1,0 +1,11 @@
+src=isrunning.h.cc
+
+echo "+ COMPILE +"
+
+out=isrunning
+gcc=g++
+libs=-lcurl
+defs=-DISRUNNINGMAIN
+$gcc -o $out $src $defs $libs
+ls -l --color=yes $out
+echo "+ DONE +"

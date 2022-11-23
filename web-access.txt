@@ -1,0 +1,71 @@
+SECURED BY: key-kgo.key, key-kgo.pem
+DAEMON BUFFER: ././kgo UNTIL KEYPRESS
+delete run.kgo to stop
+[GET /access.txt]+[0] -> ././kgo /access.txt returned 0 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /access.txt]+[0] -> ././kgo /access.txt returned 0 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /access.txt]+[0] -> ././kgo /access.txt returned 0 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /access.txt]+[0] -> ././kgo /access.txt returned 0 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /access.txt]+[0] -> ././kgo /access.txt returned 0 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /camera.html]+[0] -> ././kgo /camera.html returned 3059 bytes.
+[GET /con.js]+[0] -> ././kgo /con.js returned 2812 bytes.
+[GET /rle.js]+[0] -> ././kgo /rle.js returned 74237 bytes.
+[GET /nocamera.js]+[0] -> ././kgo /nocamera.js returned 139452 bytes.
+[GET /cam.js]+[0] -> ././kgo /cam.js returned 12527 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /camera.html]+[0] -> ././kgo /camera.html returned 3059 bytes.
+[GET /con.js]+[0] -> ././kgo /con.js returned 2812 bytes.
+[GET /rle.js]+[0] -> ././kgo /rle.js returned 74237 bytes.
+[GET /nocamera.js]+[0] -> ././kgo /nocamera.js returned 139452 bytes.
+[GET /cam.js]+[0] -> ././kgo /cam.js returned 12527 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /camera.html]+[0] -> ././kgo /camera.html returned 3059 bytes.
+[GET /con.js]+[0] -> ././kgo /con.js returned 2812 bytes.
+[GET /rle.js]+[0] -> ././kgo /rle.js returned 74237 bytes.
+[GET /nocamera.js]+[0] -> ././kgo /nocamera.js returned 139452 bytes.
+[GET /cam.js]+[0] -> ././kgo /cam.js returned 12527 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /camera.html]+[0] -> ././kgo /camera.html returned 3059 bytes.
+[GET /con.js]+[0] -> ././kgo /con.js returned 2812 bytes.
+[GET /rle.js]+[0] -> ././kgo /rle.js returned 74237 bytes.
+[GET /nocamera.js]+[0] -> ././kgo /nocamera.js returned 139452 bytes.
+[GET /cam.js]+[0] -> ././kgo /cam.js returned 12527 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /camera.html]+[0] -> ././kgo /camera.html returned 3059 bytes.
+[GET /con.js]+[0] -> ././kgo /con.js returned 2812 bytes.
+[GET /rle.js]+[0] -> ././kgo /rle.js returned 74237 bytes.
+[GET /nocamera.js]+[0] -> ././kgo /nocamera.js returned 139452 bytes.
+[GET /cam.js]+[0] -> ././kgo /cam.js returned 12527 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /]+[0] -> ././kgo / returned 8 bytes.
+[GET /]+[0] -> ././kgo / returned 8 bytes.
+[PRI *]+[0] -> ././kgo * returned 6 bytes.
+[GET /favicon.ico]+[0] -> ././kgo /favicon.ico returned 49318 bytes.
+HEADER: Content-Type = image/x-icon
+HEADER: Cache-Control = private, no-cache, no-store, must-revalidate
+[GET /camera.html]+[0] -> ././kgo /camera.html returned 3059 bytes.
+[G

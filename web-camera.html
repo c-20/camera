@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>camera()</title>
+  <style type='text/css'>
+/*
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*/
+/* flex mode not supported in XP */
+/* hides camera button; sucks anyway */
+
+#results > div {
+  width: 31%;
+  text-align: center;
+  line-height: 24px;
+}
+
+@media (max-width: 800px) {
+  #results {
+    flex-flow: column;
+  }
+  
+  #results > div {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}
+
+video, canvas {
+  border: 2px solid rgba(255, 255, 255, 1);
+  background: #263238;
+  padding: 2px;
+/*
+  height: 240px;
+  width: 320px;
+*/
+}
+
+#cimage { transform: scale(0.5); border: #fc3 solid 5px; }
+
+#camera { display: none; z-index: 1;
+/*  position: absolute; top: 100px; right: 10px; */
+  border: #fc3 solid 5px;                   }
+
+#camvas { z-index: 2;
+  position: absolute; top: 2%; right: 2%;
+  margin-top: -120px;
+  margin-right: -160px;
+  border: #0cc solid 1px;
+  transform: scale(0.5);
+}
+
+#comvas { z-index: 3;
+  position: absolute; bottom: 10%; right: 20%;
+  border: #0cc solid 5px;
+}
+
+#cimage {
+  border: #c0c solid 5px;
+}
+
+#console { z-index: 5;
+  position: absolute; bottom: 10px; left: 10px;
+  border: #777 solid 5px;
+  padding: 5px;
+}
+
+#console > div { z-index: 6;
+  text-align: center;
+  background-color: #999;
+  padding: 4px;
+  border-bottom: #fff solid 1px;
+}
+#console > div > span {
+  text-align: center;
+  display: block;
+}
+#console > div > span > div {
+  display: inline-block;
+  background-color: #777;
+  color: #fff;
+  border: #777 solid 2px;
+}
+#console > div > span > div.clicked {
+  border: #f0f solid 2px;
+  font-weight: bold;
+  background-color: #c0c;
+}
+#console > div > span > div:hover {
+  cursor: pointer;
+  border: #0ff solid 2px;
+}
+
+  </style>
+  <script type='text/javascript' src='con.js'></script>
+  <script type='text/javascript' src='rle.js'></script>
+  <script type='text/javascript' src='nocamera.js'></script>
+  <script type='text/javascript' src='cam.js'></script>
+</head>
+<body>
+  <canvas id='camvas' width='640' height='480'></canvas>
+  <canvas id='comvas' width='640' height='480'></canvas>
+  <video id='camera' autoplay></video>
+  <div id='cstatus' style='font-weight: bold; color: #fc3;'>waiting for camera...</div>
+<!--  <img id='cimage' alt='NO FRAME' /> -->
+  <br />
+  <div id='console'>
+    <div onclick='colourreduction(event, this);'>Colour Reduction<br />
+      <span><div>0</div><div>1</div><div>2</div>
+            <div>3</div><div>4</div><div>5</div>
+            <div>6</div><div>7</div><div>8</div></span>
+    </div>
+    <div>Palette Retained<br /><span>NO FRAME</span></div>
+    <div>Compressed Size<br /><span>NO FRAME</span></div>
+    <div>Frames/Second<br /><span>NO FRAME</span></div>
+  </div>
+
+<script>
+  initconsole();
+  if (asyncfail) {
+    // auto-click to adjust body objects
+    camerabuttonclick();
+  } else {
+    id('camera').addEventListener('play', function() {
+//        setTimeout(function() { framebuttonclick(); }, framefpsmaxms);
+    });
+    camerabuttonclick();
+  }
+</script>
+
+</body>
+</html>
+
+
+
