@@ -4,7 +4,7 @@ return
 #endif
 
 // . isrunning.h.cc to make ./isrunning external program, or
-// #include "isdash.h.cc" to include isdash() function call
+// #include "isrunning.h.cc" to include isrunning() function call
 
 #include <iostream>
 
